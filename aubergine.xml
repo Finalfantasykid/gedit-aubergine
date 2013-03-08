@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Author: David Turner <finalfantasykid13@gmail.com>
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+<style-scheme id="aubergine" _name="Aubergine" version="1.0">
+  <author>David Turner</author>
+  <_description>A theme which uses colors familiar to Ubuntu users.  Loosely based on the Ubuntu Design specifications http://design.ubuntu.com/brand/colour-palette</_description>
+
+<!-- Colors -->
+  <color name="veryLightOrange" value="#FAA264"/>
+  <color name="lightOrange" value="#F47421"/>
+  <color name="orange" value="#DD4814"/>
+  <color name="red" value="#FF0000"/>
+  <color name="white" value="#FFFFFF"/>
+  <color name="black" value="#000000"/>
+  <color name="veryLightAubergine" value="#B384A9"/>
+  <color name="lightAubergine" value="#77216F"/>
+  <color name="midAubergine" value="#5E2750"/>
+  <color name="darkAubergine" value="#2C001E"/>
+  <color name="canonical" value="#9C3A72"/>
+  <color name="lightGreen" value="#ACCE56"/>
+  <color name="warmGrey" value="#AEA79F"/>
+  <color name="coolGrey" value="#333333"/>
+
+<!-- GUI styles -->
+  <style name="text" foreground="white" background="darkAubergine"/>
+  <style name="selection" background="orange"/>
+  <style name="selection-unfocused" foreground="white" background="warmGrey"/>
+  <style name="cursor" foreground="white"/>
+  <style name="secondary-cursor" foreground="white"/>
+  <style name="current-line" background="black"/>
+  <style name="line-numbers" foreground="warmGrey" background="midAubergine"/>
+  <style name="bracket-match" foreground="white" background="lightOrange" bold="true"/>
+  <style name="bracket-mismatch" foreground="white" background="red" bold="true"/>
+  <style name="search-match" foreground="white" background="lightOrange"/>
+
+<!-- Default styles -->
+  <style name="def:keyword" foreground="lightOrange" bold="true"/>
+  <style name="def:statement" foreground="lightOrange" bold="true"/>
+  <style name="def:function" foreground="orange"/>
+  <style name="def:preprocessor" foreground="lightGreen" bold="true"/>
+  <style name="def:type" foreground="canonical" bold="true"/>
+  
+  <style name="def:character" foreground="veryLightAubergine"/>
+
+  <style name="def:comment" foreground="veryLightOrange"/>
+  <style name="def:number" foreground="veryLightAubergine"/>
+  <style name="def:string" foreground="veryLightAubergine"/>
+  <style name="def:net-address-in-comment" foreground="veryLightAubergine" italic="true" underline="true"/>
+  <style name="def:note" foreground="white" background="orange" bold="true"/>
+  <style name="def:error" background="red" bold="true"/>
+  <style name="def:escape" foreground="warmGrey"/>
+  <style name="def:shebang" foreground="lightGreen" bold="true"/>
+  <style name="def:doc-comment-element" italic="true"/>
+  <style name="def:identifier" foreground="lightGreen"/>
+
+  <style name="def:specials" foreground="orange" background="magenta"/>
+  
+  <style name="def:variable" foreground="lightGreen"/>
+  <style name="def:boolean" foreground="veryLightAubergine" bold="true"/>
+  <style name="def:constant" foreground="veryLightAubergine"/>
+  <style name="def:special-constant" foreground="veryLightAubergine" bold="true"/>
+  
+<!-- Languange Specific styles -->
+
+</style-scheme>
