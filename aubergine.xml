@@ -48,7 +48,7 @@
   <style name="line-numbers" foreground="warmGrey" background="midAubergine"/>
   <style name="bracket-match" foreground="darkAubergine" background="veryLightAubergine" bold="true"/>
   <style name="bracket-mismatch" foreground="white" background="red" bold="true"/>
-  <style name="search-match" foreground="white" background="orange"/>
+  <style name="search-match" foreground="white" background="warmGrey"/>
 
 <!-- Default styles -->
   <style name="def:keyword" foreground="lightOrange" bold="true"/>
