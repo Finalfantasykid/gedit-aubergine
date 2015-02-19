@@ -19,22 +19,28 @@ if [ "$UID" -eq "$ROOT_UID" ] ; then
     # Install for Gedit 2.x
 	if [ -d "/usr/share/gnome/gtksourceview-2.0/styles/" ]; then
         cp aubergine.xml /usr/share/gnome/gtksourceview-2.0/styles/aubergine.xml
+	chmod +r /usr/share/gnome/gtksourceview-2.0/styles/aubergine.xml
     fi
     if [ -d "/usr/local/share/gtksourceview-2.0/styles/" ]; then
         cp aubergine.xml /usr/local/share/gtksourceview-2.0/styles/aubergine.xml
+	chmod +r /usr/local/share/gtksourceview-2.0/styles/aubergine.xml
     fi
     if [ -d "/usr/share/gtksourceview-2.0/styles/" ]; then
         cp aubergine.xml /usr/share/gtksourceview-2.0/styles/aubergine.xml
+	chmod +r /usr/share/gtksourceview-2.0/styles/aubergine.xml
     fi
     
     # Install for Gedit 3.x
     if [ -d "/usr/share/gnome/gtksourceview-3.0/styles/" ]; then
         cp aubergine.xml /usr/share/gnome/gtksourceview-3.0/styles/aubergine.xml
+	chmod +r /usr/share/gnome/gtksourceview-3.0/styles/aubergine.xml
     fi
     if [ -d "/usr/local/share/gtksourceview-3.0/styles/" ]; then
         cp aubergine.xml /usr/local/share/gtksourceview-3.0/styles/aubergine.xml
+	chmod +r /usr/local/share/gtksourceview-3.0/styles/aubergine.xml
     fi
     if [ -d "/usr/share/gtksourceview-3.0/styles/" ]; then
         cp aubergine.xml /usr/share/gtksourceview-3.0/styles/aubergine.xml
+	chmod +r /usr/share/gtksourceview-3.0/styles/aubergine.xml
     fi
 fi
